@@ -82,12 +82,12 @@ header .btn:hover{
     background-color: #37517E;
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 400px;
     background-position: right;
 }
 
 	header h1 {
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 450;
     line-height: 1;
 }
@@ -99,11 +99,15 @@ header p {
 }
 .banner-content a {
 	padding-top: 10px !important;
-	padding-bottom: : 10px !important; 
+	padding-bottom:10px !important; 
 }
 .banner-content a i{
-	font-size: 15px;
+	font-size: 30px;
 
+}
+.partner-logo .row div{
+  padding: 2rem !important;
+}
 }
 	
 }
@@ -112,8 +116,11 @@ header p {
     background-color: #37517E;
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
-    background-size: 400px;
-    background-position: right;
+    background-size: 350px;
+    background-position: flex-end;
+}
+.partner-logo .row div{
+  padding: 2rem !important;
 }
 
 
@@ -122,8 +129,6 @@ header p {
 @media (max-width: 767px){
 	header {
     background-image: url();
-
-  
 }
 .banner-content{
 	text-align: center;
@@ -131,12 +136,14 @@ header p {
 header h1{
 	font-size: 42px;
 }
-	
+.partner-logo .row div{
+  padding: 2rem !important;
+}	
 }
 @media (max-width: 575px){
-	header h1{
-		font-size: 30px;
-	}
+	 header h1 {
+    font-size: 24px;
+ }
 	.banner-content{
 		padding-top:50px !important;
 		padding-bottom: 50px !important; 
@@ -149,4 +156,10 @@ header h1{
 	.partnerlogo .row div{
 	padding:1rem 10px !important;
 }
+}
+@media (min-width: 576){
+	.partnerlogo .row div{
+	padding:1rem 0px !important;
+}
+
 }
