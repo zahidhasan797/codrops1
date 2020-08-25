@@ -1,0 +1,93 @@
+/*###############@media queari#########*/
+@media (max-width: 1399px){
+	header{
+		background-image: 600px !important;
+	}
+
+}
+@media (max-width: 1199px){
+	header {
+    background-color: #37517E;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right;
+}
+
+	header h1 {
+    font-size: 30px;
+    font-weight: 450;
+    line-height: 1;
+}
+header p {
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 1.7;
+    font-weight: 450;
+}
+.banner-content a {
+	padding-top: 10px !important;
+	padding-bottom:10px !important; 
+}
+.banner-content a i{
+	font-size: 30px;
+
+}
+.partner-logo .row div{
+  padding: 2rem !important;
+}
+}
+	
+}
+@media (max-width: 991px){
+	header {
+    background-color: #37517E;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: flex-end;
+}
+.partner-logo .row div{
+  padding: 2rem !important;
+}
+
+
+	
+}
+@media (max-width: 767px){
+	header {
+    background-image: url();
+}
+.banner-content{
+	text-align: center;
+}
+header h1{
+	font-size: 42px;
+}
+.partner-logo .row div{
+  padding: 2rem !important;
+}	
+}
+@media (max-width: 575px){
+	 header h1 {
+    font-size: 24px;
+ }
+	.banner-content{
+		padding-top:50px !important;
+		padding-bottom: 50px !important; 
+	}
+	.banner-content a{
+		margin-bottom: 15px; 
+	} 
+	
+
+	.partnerlogo .row div{
+	padding:1rem 10px !important;
+}
+}
+@media (min-width: 576){
+	.partnerlogo .row div{
+	padding:1rem 0px !important;
+}
+
+}
