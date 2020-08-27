@@ -238,7 +238,44 @@ header .btn:hover{
 	 font-size: 30px;
 	 margin-top: 15px;
 }
-.member-section{
-	margin-top:100px;
+.members-section{
+    background-color: #EAF5FC;
+    padding: 100px 0;
 }
-.member-section h1{}
+.members-section h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    color: #1d5486;
+    margin-bottom: 30px;
+}
+.members-section p{}
+.members-section ul{
+    margin: 30px 0;
+}
+.members-section ul li{}
+.members-section ul li h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1d5486;
+}
+.members-section ul li h4{
+    font-size: 41px;
+    font-weight: 900;
+    /* margin: 30px 0; */
+    color: #1d5486;
+}
+.members-section ul li:last-child{
+	
+border-left: 1px solid #3124243d;
+	
+margin-left: 20px;
+	
+padding-left: 20px;
+}
+.members-section a{
+	border: 2px solid #47b2e4;
+	color: #47b2e4
+}
+.members-section a i{}
